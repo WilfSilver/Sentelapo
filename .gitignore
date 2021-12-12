@@ -1,0 +1,5 @@
+/target
+*.code-workspace
+.vscode
+config
+node_data.txt
