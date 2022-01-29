@@ -1,12 +1,12 @@
-# Natural Language Processor in Rust
+# Sentelapo
+
+A simple natural language processor which tries to match input phrases to a task which a program can understand while also extracting data.
 
 This is a small personal project which I made the first commit within 2 days (while also learning about a part of Rust I had not touched yet), meaning it is quite rough around the edges and there is definitely better ways of doing things then currently here.
 
-This is a basic natural language processor (so much so that it might not be called a natural language processor) that takes an input and tries to match it with the training data which to output a "Task" which is set in the config while also collecting data such as first_name or last_name known as fields, which have a field type which define examples of what that would be.
+This is a simple natural language processor (so much so that it might not be called a natural language processor) that takes an input and tries to match it with the training data which to output a "Task" which is set in the config while also collecting data such as first_name or last_name known as fields, which have a field type which define examples of what that would be.
 
 ## Config
-
-The structure of the config is built of Twilio's Autopilot idea, however it tries to improve upon it.
 
 ### Structure
 
