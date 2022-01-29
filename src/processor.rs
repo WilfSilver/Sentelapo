@@ -10,9 +10,10 @@ use crate::phrase::WordPhrase;
 use crate::phrase::MetaPhrase;
 
 use regex::Regex;
-use std::collections::HashMap;
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::collections::HashMap;
+use std::io::Write;
+use std::rc::Rc;
 
 pub struct Processor {
     base_node:     BaseNode,
